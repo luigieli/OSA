@@ -1,0 +1,4 @@
+# Ignore test input files
+practice1/files/
+
+practice2/*.txt
