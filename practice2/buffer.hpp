@@ -15,7 +15,7 @@ public:
 
     std::vector<Record> readRecordWithDelimiter();
 
-    std::vector<Record> writeRecordWithSizeDescriptor();
+    void writeRecordWithSizeDescriptor(const Record& record);
 
     std::vector<Record> readRecordWithSizeDescriptor();
 };
